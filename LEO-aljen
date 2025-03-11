@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leo nettisivu</title>
+<<style> body {
+</head>
+      background-color: lightblue;
+  }
+  
+  h1 {
+           color: green;
+           text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+  }
+<style=""
+
+    <h1 id=demo heading</h1>
+    <p>tervetuloa nettisivulleni! :>.</p>
+
+    <button onclick="myFunction()">Click Me!</button>
+
+<script>
+function myFunction() {
+    let x = document.getElementById("demo");
+   x.style.fontSize = "25px";
+   x.style.color = "red";
+}
+</script>
+</body>
+</html>
